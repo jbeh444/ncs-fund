@@ -3,9 +3,10 @@
 
 &i2c0 {
     
-    mysensor: mysensor@4a{
+    mysensor: mysensor@19{
         compatible = "i2c-device";
         status = "okay";
-        reg = < 0x4a >;
+        reg = < 0x19 >;
+        label = "mysensor";
     };
 };
