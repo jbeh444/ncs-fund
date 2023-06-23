@@ -23,8 +23,8 @@ void thread0(void)
 void thread1(void)
 {
 	while (1) {
-            printk("Hello, I am thread1\n");
-            k_busy_wait(1000000);
+          printk("Hello, I am thread1\n");
+		  k_busy_wait(1000000);
 	}
 }
 
